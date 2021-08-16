@@ -1,0 +1,11 @@
+1.IMPORTANT!
+After k LEFT-rotations of an array, the array starts form kth index.So it is possible to quickly print the rotated array starting from kth index with rotational increment.
+	For RIGHT-rotations the array starts from (n-k)th index.
+	This process doesn't change the array and takes O(1) space and O(n) time.
+
+2. n rotations on an array returns the initial array itself.So we use (mod n) for more than n rotations.
+
+3.IMPORTANT!
+A famous method of array rotation or adding subarray(from start) to the end is :
+	create a temporary array double of our array's size and copy our array to the temporary one twice.Then copy the necessary part of the temporary array to our array.
+	But this requires extra space.

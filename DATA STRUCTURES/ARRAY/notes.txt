@@ -1,0 +1,23 @@
+NOTES ON ARRAY
+
+== REARRANGEMENT ==
+
+techniques:-
+
+i> segregation O(n)
+ii> insertion O(n^2)
+
+both of these require two pointers technique
+
+segregation does not keep the order same but insertion does.
+
+we can use segregation if at least one part contains only fixed value like moving zeros to the end.
+
+what is segregation?
+
+suppose we have to bring good values to the start and bad values to the end.Now we keep a pointer j which points to the position of the next good value.
+i points to the current position while traversing. we initialise j as -1. If at any pos i we find a good value we increment j and swap values of i & j.
+
+what is insertion?
+
+similar to the segregation we start with j = -1. If we find a good val at i we increment j and we shift all the values from j to i-1 one position to the right and then put the good value at j.

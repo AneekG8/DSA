@@ -1,0 +1,9 @@
+1.
+
+Appart from partition or seggregation method used in array we can use a different approach to segregate linked lists.
+	we use 4 pointers to point start and end of both good and bad lists. At the end we link good and bad lists.
+
+2.
+
+For cycle detection we use slow and fast pointers.
+	Now, in circular LL there is already a loop. so we can use slow and fast pointers to find the mid node. Whenever the fast node is not able to go further(loops back to the start) the slow pointer is our mid.

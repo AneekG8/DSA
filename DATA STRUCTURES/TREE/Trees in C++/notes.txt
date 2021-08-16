@@ -1,0 +1,26 @@
+TRAVERSALS
+
+1.using recursion
+2.using stack : for postorder we have to use a flag as well
+3.Morris traversal
+
+4. for postorder: using 2 stacks => second stack stores reverse of postorder i.e VRL which is similar to preorder
+
+5.using map : for post order => map parent to each node
+
+
+LEVEL ORDER TRAVERSAL
+
+1. using queue : we can use a for loop for each level or a NULL pointer in the queue as delimiter 
+
+2. print a specific level: using recusrsion or queue
+
+3. print a specific level in reverse order: using recursion
+
+4. zigzag traversal: change order of level order traversal alternatively => using recursion OR use normal level order traversal but for reverse order first push it into a stack then pop
+
+5. for specific level order like one from front and next from rear use a queue for normal level order traversal and we can use a deque to store each level and print accordingly
+
+DELETION
+
+1. use normal level order traversal to push all the nodes into a stack and find the key node. s.top() will be the last or deepest node.Find parent of the last node using stack and delink the last node. Finally key node gets the data of last node.
