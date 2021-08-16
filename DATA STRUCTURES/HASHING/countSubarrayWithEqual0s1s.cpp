@@ -1,4 +1,5 @@
 //given an array of 0s and 1s only find number of sub arrays containing equal numbers of 0s and 1s
+//https://practice.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1#
 
 #include<bits/stdc++.h>
 using namespace std;

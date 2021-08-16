@@ -8,7 +8,7 @@ using namespace std;
 //brute force || O(n^2)
 
 //if array 2 has duplicate elements we need to use flags
-//so we create a vector<int,bool> from array 1 where bool(flag) represents availability
+//so we create a vector<pair<int,bool>> from array 1 where bool(flag) represents availability
 //for an element of array 2 if it's found in array 1 we make that element unavailable in array 1
 
 
@@ -46,7 +46,7 @@ bool checkSubset(int arr1[],int arr2[],int n1,int n2)
 int main()
 {
     int arr1[] = {11,1, 13, 21, 3, 7,7};
-    int arr2[] = {11, 3, 7, 7, 1,1};
+    int arr2[] = {11, 3, 7, 7, 1};
 
     int m = sizeof(arr1)/sizeof(arr1[0]);
     int n = sizeof(arr2)/sizeof(arr2[0]);

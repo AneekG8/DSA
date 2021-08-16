@@ -1,5 +1,7 @@
 //given an array and a value k find if the array has any duplicate within k distance
 
+// https://practice.geeksforgeeks.org/problems/kth-distance3757/1#
+
 #include<bits/stdc++.h>
 using namespace std;
 

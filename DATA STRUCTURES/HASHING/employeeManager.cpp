@@ -11,7 +11,9 @@ In this example C is manager of A,
 C is also manager of B, F is manager
 of C and so on.
 
-Write a function to get no of employees under each manager in the hierarchy not just their direct reports. It may be assumed that an employee directly reports to only one manager. In the above dictionary the root node/ceo is listed as reporting to himself.
+Write a function to get no of employees under each manager in the hierarchy not just their direct reports.
+It may be assumed that an employee directly reports to only one manager.
+In the above dictionary the root node/ceo is listed as reporting to himself.
 
 Output should be a Dictionary that contains following.
 

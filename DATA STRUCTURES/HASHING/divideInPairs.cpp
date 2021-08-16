@@ -3,6 +3,8 @@ Given an array of integers and a number k,
 write a function that returns true if given array can be divided into pairs such that sum of every pair is divisible by k.
 */
 
+//https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
