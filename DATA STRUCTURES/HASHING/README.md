@@ -1,4 +1,13 @@
-https://practice.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1#
-https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1
-https://practice.geeksforgeeks.org/problems/kth-distance3757/1#
-https://leetcode.com/problems/top-k-frequent-elements/
+- https://practice.geeksforgeeks.org/problems/count-subarrays-with-equal-number-of-1s-and-0s-1587115620/1#
+- https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem3257/1
+- https://practice.geeksforgeeks.org/problems/kth-distance3757/1#
+- https://leetcode.com/problems/top-k-frequent-elements/
+- https://practice.geeksforgeeks.org/problems/top-k-numbers3425/1
+- https://practice.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1
+- https://leetcode.com/problems/longest-increasing-subsequence/submissions/
+- https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1#
+- https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
+- https://practice.geeksforgeeks.org/problems/max-distance-between-same-elements/1
+- https://practice.geeksforgeeks.org/problems/maximize-the-array3340/1#
+- https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/submissions/
+- https://practice.geeksforgeeks.org/problems/smallest-subarray-with-all-occurrences-of-a-most-frequent-element2258/1
