@@ -9,6 +9,10 @@ using namespace std;
 //!approach
 // create a hash map and map element with the length of the sequence ending with that element
 
+// https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
+
+// https://practice.geeksforgeeks.org/problems/longest-subsequence-such-that-difference-between-adjacents-is-one4724/1#
+
 int longestSubseqLength(int arr[],int n)
 {
     unordered_map<int,int> m;

@@ -1,6 +1,7 @@
 //Given N elements
 //write a program that prints the length of the longest increasing subsequence whose adjacent element difference is one.
 
+// https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference/submissions/
 
 #include<bits/stdc++.h>
 using namespace std;

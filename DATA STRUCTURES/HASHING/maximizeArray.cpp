@@ -4,6 +4,8 @@ such that the new array formed contains n greatest but unique elements of both t
 (All elements of second array appear before first array). The order of appearance of elements is kept same in output as in input.
 */
 
+// https://practice.geeksforgeeks.org/problems/maximize-the-array3340/1#
+
 #include<bits/stdc++.h>
 using namespace std;
 

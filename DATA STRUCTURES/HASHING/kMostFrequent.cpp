@@ -1,5 +1,7 @@
 //find out the k most frequent elements from a given stream integers
 
+// https://practice.geeksforgeeks.org/problems/top-k-numbers3425/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -34,8 +36,8 @@ void kMostFrequent(int arr[],int n,int k)
         }
 
         //print the top k elements
-        for(int i=0;i<k && top[i]!=0;i++)
-            cout<<top[i]<<" ";
+        for(int j=0;j<k && top[j]!=0;j++)
+            cout<<top[j]<<" ";
 
         cout<<endl;
     }

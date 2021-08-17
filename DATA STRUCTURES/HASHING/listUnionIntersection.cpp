@@ -1,15 +1,19 @@
 //given two linked lists create two linked lists representing union and intersection of former two
 
+//https://practice.geeksforgeeks.org/problems/union-of-two-linked-list/1
+
+//https://practice.geeksforgeeks.org/problems/intersection-of-two-linked-list/1
+
 #include<bits/stdc++.h>
 using namespace std;
 
-//!method
+//!method   (also checkout the online submissions)
 
 //create a hash map which stores occurrences of each node in both lists
 
 //for union create a list with all nodes in map
 
-//for union create lists with nodes having 2 occurrences
+//for intersection create lists with nodes having 2 occurrences
 
 //!if lists are allowed to have duplicates then instead of mapping keys(nodes) with occurrences
 //!map them to their corresponding lists. if they appear in both the lists then intersection
@@ -18,7 +22,7 @@ using namespace std;
 
 void getUnionIntersection(list<int> a,list<int> b,list<int>* u,list<int>* i)
 {
-    unordered_map<int,pair<bool,bool>> m;   //two bbol flags mark appearances of nodes in corresponding lists
+    unordered_map<int,pair<bool,bool>> m;   //two bool flags mark appearances of nodes in corresponding lists
 
     for(auto itr=a.begin();itr!=a.end();itr++)
         m[*itr]={true,false};

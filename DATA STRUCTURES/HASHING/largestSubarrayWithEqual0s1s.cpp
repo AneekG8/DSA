@@ -1,5 +1,7 @@
 //given an array with 0s and 1s only find out the largest sub array possible which has equal 0s and 1s
 
+//https://practice.geeksforgeeks.org/problems/largest-subarray-of-0s-and-1s/1
+
 #include<bits/stdc++.h>
 using namespace std;
 

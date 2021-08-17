@@ -1,5 +1,7 @@
 //given an array with repeating elements find the maximum distance between two occurrences of an element
 
+// https://practice.geeksforgeeks.org/problems/max-distance-between-same-elements/1 (checkout the solution)
+
 #include<bits/stdc++.h>
 using namespace std;
 

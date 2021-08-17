@@ -1,5 +1,7 @@
 //given an array find out the smallest sub array containing all the occurrences of the most frequent element
 
+// https://practice.geeksforgeeks.org/problems/smallest-subarray-with-all-occurrences-of-a-most-frequent-element2258/1
+
 #include<bits/stdc++.h>
 using namespace std;
 

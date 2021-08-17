@@ -7,7 +7,7 @@ using namespace std;
 
 //O(n * logn) BRUTE FORCE using BINARY SEARCH for sum-arr[i]
 
-//O(nlogn) for unsorted using SORTING and TWO POINTER technique (o(n)) if already sorted
+//O(nlogn) for unsorted using SORTING and TWO POINTER technique || O(n) if already sorted
 
 
 //O(n) using hashing
