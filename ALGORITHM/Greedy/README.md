@@ -1,0 +1,13 @@
+- https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+- https://practice.geeksforgeeks.org/problems/job-sequencing-problem-1587115620/1#
+- https://practice.geeksforgeeks.org/problems/water-connection-problem5822/1#
+- https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
+- https://practice.geeksforgeeks.org/problems/choose-and-swap0531/1
+- https://practice.geeksforgeeks.org/problems/minimum-platforms-1587115620/1#
+- https://www.geeksforgeeks.org/minimum-cost-cut-board-squares/
+- https://practice.geeksforgeeks.org/problems/check-if-it-is-possible-to-survive-on-island4922/1#
+- https://practice.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1
+- https://leetcode.com/problems/maximum-product-subarray/solution/
+- https://www.geeksforgeeks.org/maximum-product-subset-array/
+- https://leetcode.com/problems/lru-cache/submissions/
+- https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1#

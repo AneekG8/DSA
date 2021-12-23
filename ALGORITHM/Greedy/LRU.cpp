@@ -1,60 +1,57 @@
+// https://practice.geeksforgeeks.org/problems/page-faults-in-lru5603/1#
+
+//page faults in LRU in O(n * c)    n = no. of pages || c = capacity of cache
 #include<bits/stdc++.h>
 using namespace std;
 
-
-int pageFaults(int n, int c, int pages[]){
-        // code here
-        map<int,int> m;
-
-        int p = 0,i,count = 0;
-
-        for(i=0;count<c && i<n;i++)
+int pageFaults(int n, int c, int pages[])
+{
+    // code here
+    unordered_map<int,int> m;   //page,timestamp
+    
+    int pf = 0 , t = 0;
+    
+    for(int i=0;i<n;i++)
+    {
+        int p = pages[i];
+        
+        if(m.find(p) != m.end())
         {
-            auto it = m.find(pages[i]);
-
-            if( it == m.end())
-            {
-                count++,p++;
-                m.insert({pages[i],i}); //insert
-            }
-            else
-                it->second = i; //update
-
-
+            m[p] = ++t;
         }
-
-        for(;i<n;i++)
+        
+        else
         {
-            auto pageItr = m.find(pages[i]);
-
-            if( pageItr == m.end())
+            pf++;
+            
+            if(m.size() == c)
             {
-                p++;
-
-                auto itr = m.begin();
-
-                for(auto it = m.begin();it!=m.end();it++)
+                int lru = -1,minT = INT_MAX;
+                for(auto it : m)
                 {
-                    if(it->second < itr->second)
-                        itr = it;   //least recently used unit
+                    if(it.second < minT)
+                    {
+                        lru = it.first;
+                        minT = it.second;
+                    }
                 }
-
-                m.erase(itr);   //erase LRU
-
-                m.insert({pages[i],i}); //insert new page;
-
+                
+                if(lru != -1)
+                    m.erase(lru);
             }
-
-            else
-                pageItr->second = i;    //update
-
+            
+            m[p] = ++t;
         }
-
-        return p;
-
     }
+    
+    return pf;
+}
 
 int main()
 {
-    int pages[] = {};
+    int pages[] = {5, 0, 1, 3, 2, 4, 1, 0, 5};
+
+    cout<<pageFaults(9,4,pages);
+
+    return 0;
 }
